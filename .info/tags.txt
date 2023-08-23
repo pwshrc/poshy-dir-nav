@@ -1,0 +1,6 @@
+jump
+cd-back
+cd-forward
+cd-up
+mcd
+pwshrc
