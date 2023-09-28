@@ -26,6 +26,12 @@ Set-Alias -Name 7 -Value Set-LocationBack7
 Set-Alias -Name 8 -Value Set-LocationBack8
 Set-Alias -Name 9 -Value Set-LocationBack9
 
+<#
+.SYNOPSIS
+    Pop the current directory from the directory stack a specified number of times.
+.PARAMETER depth
+    The number of times to pop the current directory from the directory stack.
+#>
 function d () {
     param(
         [Parameter(Mandatory = $false, Position = 0)]
