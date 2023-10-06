@@ -29,7 +29,7 @@ Set-Alias -Name 9 -Value Set-LocationBack9
 function d () {
     param(
         [Parameter(Mandatory = $false, Position = 0)]
-        [Nulalble[int]] $depth = $null
+        [Nullable[int]] $depth = $null
     )
     if ($depth) {
         foreach ($i in 1..$depth) {
